@@ -1,4 +1,6 @@
 Unified platform for managing and gaining insights into the performance, availability, and health of applications and infrastructure deployed on Google Cloud.
+
+Used to be called Google Cloud Operations Suite and Stackdriver before that.
 ## Cloud Monitoring
 - Comprehensive view of cloud infrastructure and applications
 - Collects metrics, logs and traces
