@@ -67,4 +67,11 @@
 - Multi-region: available for some resources such as cloud storage - stored redundantly in two regions separated by at least 160 kilometers
 - Edge Network: place where organizations network (e.g. Google's network) connects to the internet
 
+## Considerations for Cloud Adoption
+
+- Establish resource hierarchy
+- Implement organizational policies
+- Billing management and quotas
+- Manage users and groups
+- Apply access management
 
