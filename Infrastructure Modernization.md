@@ -70,7 +70,7 @@ Allows developers to build scalable web and mobile backends in any language on f
 Allows developers to build applications in favorite programming languages and deploy them in seconds.
 Scale up and down from zero almost instantly depending on user traffic.
 
-#### [[Cloud Functions]]
+#### [[Cloud Run Functions]]
 Serverless execution environment for building and connecting cloud services.
 Scalable, pay as you go functions as a service to run you code with zero management.
 Simple and intuitive developer experience.
