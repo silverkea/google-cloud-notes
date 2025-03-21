@@ -22,3 +22,12 @@
 	- Internet connectivity?
 	- Private network connectivity?
 	- Network or system outage mitigation strategies
+
+## [[Deploying and Implementing Solutions]]
+
+- Availability, concurrency, connectivity and access options
+- Data solutions that utilize relational or NoSQL databases
+- Use cases for transactional or analytical data processing
+- Deploying infrastructure in a declarative way
+- Infrastructure as code to reduce human error
+- Interacting via Cloud console, command line or programmatically (API)

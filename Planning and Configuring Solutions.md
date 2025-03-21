@@ -1,5 +1,5 @@
 
-## Learning Resources
+## Topics
 
 ### Planning and Configuring Compute Resources
 
