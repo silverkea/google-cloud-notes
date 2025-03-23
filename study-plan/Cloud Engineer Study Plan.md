@@ -1,4 +1,5 @@
 
+## Example Study Plan
 ![[study-plan.png]]
 
 ## [[Setting Up a Cloud Solution Environment]]
