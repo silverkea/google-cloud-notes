@@ -1,3 +1,6 @@
+
+![[study-plan.png]]
+
 ## [[Setting Up a Cloud Solution Environment]]
 
 - Create resource hierarchy
@@ -70,3 +73,18 @@
 	- Configuring and deploying Ops Agent
 	- Deploying Managed Service for Prometheus
 	- Configuring audit logs
+
+
+## [[Configuring Access and Security]]
+
+- Managing Identity and Access Management (IAM)
+	- Viewing and creating IAM policies
+	- Managing the various role types and defining custom IAM roles (e.g. basic, predefined, custom)
+- Managing Service Accounts
+	- Creating a service account
+	- Using service accounts in IAM policies with minimum permissions
+	- Assigning service accounts to resources
+	- Managing IAM of a service account
+	- Managing service account impersonation
+	- Creating and managing short-lived service account credentials
+
