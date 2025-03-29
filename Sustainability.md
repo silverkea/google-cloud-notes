@@ -1,6 +1,8 @@
-
+Globally data centers use 2% of the world's electricity.
 ## ISO 14001 Certification
 Outlines framework for organization to enhance environmental performance by improving resource efficiency and reducing waste.
+
+Google's data centers were the first to achieve ISO 14001 certification.
 
 ## Google's Progress
 
