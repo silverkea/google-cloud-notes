@@ -111,3 +111,56 @@ cloud.google.com/security/security-design
 ### [[Cloud Identity]]
 
 ### [[Interacting with Google Cloud]]
+
+
+## Virtual Machines and Networks in the Cloud
+
+### [[Virtual Private Cloud]]
+
+### [[Compute Engine]]
+
+
+
+## Storage in the Cloud
+
+### [[Cloud Storage]]
+
+### [[Cloud SQL]]
+
+### [[Cloud Spanner]]
+
+### [[Firestore]]
+
+### [[Bigtable]]
+
+### [[BigQuery]]
+
+### Choosing a Storage Option
+
+Depending on requirements, one or multiple of the following storage options can be used:
+
+- Cloud Storage
+	- Storing immutable blobs larger than 10 MB
+	- Capacity: Petabytes, Max unit size 5 TB per object
+- Cloud SQL
+	- Full SQL support for online transaction processing
+	- Web frameworks and existing applications
+	- Capacity: Up to 64TB
+- Spanner
+	- Full SQL support for online transaction processing system
+	- Horizontal scalability
+	- Capacity: Petabytes
+- Firestore
+	- Massive scaling and predictability with real time query results and offline query support
+	- Best for storing, syncing and querying data for mobile and web apps
+	- Capacity: Terabytes, 1 MB per entity
+- Bigtable
+	- Storing large number of structured objects
+	- Does not support SQL queries or multi row transactions
+	- Best for analytical data with heavy read/write events like AdTech, financial or IoT data
+	- Capacity: Petabytes, Max unit size 10 MB per cell, 100 MB per row
+- BigQuery
+	- Sits on edge between data storage and data processing, not purely a storage solution
+	- Best for data analysis and interactive querying capabilities
+
+
