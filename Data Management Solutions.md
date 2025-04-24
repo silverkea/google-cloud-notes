@@ -3,8 +3,8 @@
 - [[Cloud SQL]]
 - [[Cloud Spanner]]
 - [[BigQuery]]
-- [[Firestore]]
-- [[BigTable]]
+- [[Cloud Firestore]]
+- [[Cloud Bigtable]]
 
 ## Choosing Data Storage
 
@@ -21,7 +21,7 @@ Online transaction processing, OLTP - fast data inserts and updates required to 
 - [[Cloud Spanner]] for global scalability
 
 ##### NoSQL Access
-- [[Firestore]] would be best option for transactional NoSQL document-oriented database
+- [[Cloud Firestore]] would be best option for transactional NoSQL document-oriented database
 
 #### Analytical Workloads
 Online analytical processing, OLAP - where entire datasets need to be read
@@ -30,5 +30,5 @@ Online analytical processing, OLAP - where entire datasets need to be read
 - [[BigQuery]] allows analyzing petabyte scale datasets
 
 ##### NoSQL Access
-- [[BigTable]] provides scalable NoSQL solution for analytical workloads
+- [[Cloud Bigtable]] provides scalable NoSQL solution for analytical workloads
 

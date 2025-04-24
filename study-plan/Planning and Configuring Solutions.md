@@ -81,7 +81,7 @@ Google’s relational database offerings include [[Cloud SQL]] and [[Cloud Spann
 
 #### NoSQL
 
-[[Firestore]] and [[Bigtable]] are NoSQL implementations. [[Firestore]] is a document database that supports entities and attributes. [[Bigtable]] is based on column families where rows of data are referenced by a key that combines commonly queried columns. Related columns can additionally be organized into column families such as username and address.
+[[Cloud Firestore]] and [[Cloud Bigtable]] are NoSQL implementations. [[Cloud Firestore]] is a document database that supports entities and attributes. [[Cloud Bigtable]] is based on column families where rows of data are referenced by a key that combines commonly queried columns. Related columns can additionally be organized into column families such as username and address.
 
 ### Storage
 

@@ -172,7 +172,7 @@ The ways you can implement a batch load in BigQuery include:
 
 For real-time use cases you can stream data into BigQuery using the Streaming API. Data streamed into BigQuery can be used for querying immediately. The streaming API can be used to track and query application events or log stream information.
 
-The third way to ingest data into BigQuery is to use Dataflow and Apache Beam. These two technologies define a processing pipeline where your source or sink can be BigQuery. A possible use-case for this is to trigger a Cloud Run function when an event happens. The Cloud Run function could contain the logic to start an Apache Beam pipeline using a Dataflow runner that would execute transformations required and then save your data into BigQuery when it is done.
+The third way to ingest data into BigQuery is to use [[Cloud Dataflow]] and Apache Beam. These two technologies define a processing pipeline where your source or sink can be BigQuery. A possible use-case for this is to trigger a Cloud Run function when an event happens. The Cloud Run function could contain the logic to start an Apache Beam pipeline using a [[Cloud Dataflow]] runner that would execute transformations required and then save your data into BigQuery when it is done.
 
 Another way to load data is to execute queries in BigQuery native storage or federated queries on external data and save the results to a table. CTAS (create table as select) is a way to do this using DML as well.
 

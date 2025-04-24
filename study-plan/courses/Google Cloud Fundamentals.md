@@ -91,7 +91,7 @@ cloud.google.com/security/security-design
 
 ### Pricing and Billing
 
-- Per second billing for IaaS compute offering [[Compute Engine]], [[Google Kubernetes Engine|GKE]], [[Dataproc]] and [[App Engine]]
+- Per second billing for IaaS compute offering [[Compute Engine]], [[Google Kubernetes Engine|GKE]], [[Cloud Dataproc]] and [[App Engine]]
 - Automatically applied sustained use discounts for [[Compute Engine]] - kicks in after 25% of month
 - [Online pricing calculator](cloud.google.com/products/calculator) helps estimate costs
 - Budgets at billing account and project level to help manage costs with alerts when approaching limits - usually set a 50%, 90% and 100% thresholds but can be customized
@@ -129,9 +129,9 @@ cloud.google.com/security/security-design
 
 ### [[Cloud Spanner]]
 
-### [[Firestore]]
+### [[Cloud Firestore]]
 
-### [[Bigtable]]
+### [[Cloud Bigtable]]
 
 ### [[BigQuery]]
 

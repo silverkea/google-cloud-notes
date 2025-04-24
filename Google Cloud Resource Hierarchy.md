@@ -25,14 +25,50 @@
 - Contain projects and other folders or combinations of both
 - Assign policies at chosen level of granularity - e.g. folder per department
 - Ability to delegate administrative responsibilities to folder level so teams can work independently
+- Typically used to represent business units, departments, teams or products
 
 #### Organization
-- Top level of hierarchy
-- Required to use folders
-- Some special roles associated with organization level 
-- e.g.:
-	- Organization policy administrator - grant privileges to set organization policies
-	- Project creator role - who can create projects, therefore spend money
-- Creating
+- Root node of GCP resource hierarchy, not mandatory unless using certain features
+	- Centralized policy management
+	- IAM at the organization level
+	- Centralized billing and cost management
+	- Resource hierarchy management (folders)
+	- Access to certain support levels
+- Creating - closely associated with a G Suite or Cloud Identity Account
 	- Google Workspace customers have one automatically, and projects are nested under it
 	- Non Workspace customers - [[Cloud Identity]] can be used to create an organization
+- Some special roles associated with organization level
+- e.g.:
+	- Organization policy administrator - grant privileges to set organization policies
+	- Project creator role 
+		- who can create projects, therefore spend money
+		- can be applied at organization or project level
+
+- Workspace or Cloud Identity super administrator
+	- Assigns the Organization admin role to some users
+	- Point of contact in case of recovery issues
+	- Control the lifecycle of the workspace or Cloud Identity account and Organization resource
+
+- Organization admin:
+	- Define IAM policies
+	- Determine structure of resource hierarchy
+	- Delegate responsibility for components such as Networking, Billing, Resource Hierarchy through IAM roles
+	- Following least privilege principle, the role doesn't have permission to perform other actions like create folders unless additional roles are assigned to the account of the organization admin
+	
+- Often the Workspace or Cloud Identity super administrator and the Organization admin different users or groups
+
+#### Resource Manager Roles
+
+##### Organization
+- Admin:  Full control over all resources
+- Viewer: View access to all resources
+
+##### Folder
+- Admin: Full control over folders
+- Creator: Browse hierarchy and create folders
+- Viewer: View folders and projects below a resource
+
+##### Project
+- Creator: Create new projects (automatic owner) and migrate new projects into organization
+- Deleter: Delete projects
+
