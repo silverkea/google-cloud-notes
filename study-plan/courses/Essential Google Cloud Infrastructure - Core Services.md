@@ -7,7 +7,7 @@
 - What: specific privileges or actions
 - Which resource: and Google Cloud service
 
-### [[Google Cloud Resource Hierarchy]]
+### [[Resource Hierarchy]]
 
 - Organization - root node, represents company
 - Folders - optional children of organization, can contain projects and other folders, may represent departments
@@ -57,3 +57,12 @@
 #### [[Cloud Bigtable]]
 
 #### [[Memorystore]]
+
+
+## [[Resource Manager|Resource Management]]
+
+
+## Resource Monitoring
+
+### [[Google Cloud Observability]]
+

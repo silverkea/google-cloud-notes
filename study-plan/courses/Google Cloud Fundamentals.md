@@ -102,7 +102,7 @@ cloud.google.com/security/security-design
 
 ## Resources and Access in the Cloud
 
-### [[Google Cloud Resource Hierarchy]]
+### [[Resource Hierarchy]]
 
 ### [[Identity and Access Management (IAM)]]
 
