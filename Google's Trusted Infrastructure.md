@@ -29,7 +29,7 @@
 ## Network Security
 - Zero trust security implemented via Google Cloud's BeyondCorp Enterprise Security model.
 - User's identity and context considered in every access request
-- Private access methods available via [[Cloud VPN]] and [[Cloud Interconnect]] allowing secure connections between on-premises networks and cloud resources
+- Private access methods available via [[Cloud VPN]] and [[Cloud Interconnect and Peering]] allowing secure connections between on-premises networks and cloud resources
 - Perimeter secured via firewalls and [[Virtual Private Cloud|Virtual Private Cloud (VPC)]]
 - Utilize [[Shared Virtual Private Cloud|Shared VPC]] to separate each Google Cloud Project so they work independently and safely
 - Prevent DDoS attacks with web application firewall (WAF) via [[Google Cloud Armour]]
