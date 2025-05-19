@@ -1,0 +1,2 @@
+- Lightweight open models built upon the research and tech behind [[Gemini]]
+- User-friendly customizable solution for local deployments and specialized AI apps

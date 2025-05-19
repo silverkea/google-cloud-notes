@@ -1,0 +1,3 @@
+- Text to image diffusion model
+- Generate high quality imagers from text descriptions
+- Great for creative design, ecommerce, visualization, content creation

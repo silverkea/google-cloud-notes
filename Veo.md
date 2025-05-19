@@ -1,0 +1,3 @@
+- Generation of video content
+- Produce videos based on textual descriptions or still images
+- Great for film production, advertising, online content
