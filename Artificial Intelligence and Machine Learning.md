@@ -173,8 +173,8 @@ How complex is the problem? How much data is available? How experienced is the t
 - Performance tracking - review model metrics
 - Drift monitory - detect changes in model accuracy over time
 - Data management - [[Vertex AI#Feature Store|Vertex AI Feature Store]] to manage data features the model uses
-- Storage - [[Vertex AI#Model Garden|Vertext AI Model Garden]] to store and manage models
-- Automate - [[Vertex AI#Pipelines|Vertex AI Pipelines]] to automate machine learning tasks
+- Storage - [[Vertex AI#Model Registry|Vertext AI Model Registry]] to store and manage models
+- Automate - [[Vertex AI#Workflow Orchestration|Vertex AI Workflow Orchestration]] to automate machine learning tasks
 
 
 
@@ -252,3 +252,122 @@ How complex is the problem? How much data is available? How experienced is the t
 	- High-risk decision making - safeguard when ML informs decisions with high consequences such as medical diagnosis or criminal justice assessments.
 	- Pre-generation review - before deployment human experts review outputs for errors or bias 
 	- Post-generation review - after deployment continuous human oversight to monitor AI outputs and provide feedback, enabling models to adapt to evolving contexts and user needs
+
+
+## Project Resources
+### People - Roles and Responsibilities
+
+#### Business Leaders
+-  Typically interact with pre-built gen AI solutions to enhance daily operations and improve customer experiences
+
+#### Developers
+- Build and deploy custom AI agents and integrate AI capabilities into existing applications
+- Use AI applications for custom agent creation, AI code generation, AI driven data processing
+- Leverage pre-trained APIs to rapidly integrate AI into applications
+- Use Vertex AI platform to build and deploy AI agents with tools for orchestration, grounding and action
+#### AI Practitioners
+- Customize, deploy and optimize gen AI models
+- Use Vertex AI platform to accelerate development and ensure responsible AI practices
+- Scale AI workloads, integrate models with BigQuery, implement responsible AI measures like bias detection and adversarial testing.
+
+
+### Cost
+
+When building gen AI solutions, you pay for three primary activities:
+
+- **Training** the model.    
+- **Deploying** the model to an endpoint.    
+- **Using** the model to make predictions
+
+#### Pricing for Usage
+
+- Usage based - often measured in tokens or characters - common for APIs
+- Subscription based - recurring fee for access to model, often with tiers based on usage, limits, or features
+- Licensing fees - one time or recurring for using a model
+- Free tiers - free access with limited usage for experimentation
+
+#### Pricing Metrics
+
+- Tokens - represents a piece of text - word or part of a word
+- Characters - number of characters processed
+- Requests - charge per request, regardless of complexity or volume of task
+- Compute time - based on processing power and time taken to complete task
+
+#### Cost Factors
+
+- Model size and complexity - larger more capable models cost more
+- Context window - larger increases costs
+- Features - specialized features like fine-tuning or embedding can have separate pricing
+- Deployment - may have compute based costs depending where model is deployed
+
+
+### Time
+- **Custom AI solutions** require significantly more time and resources to build, potentially taking months.
+- Consider your project timelines and requirements to determine if a **pre-built Gen AI application** or a **custom agent with AI Applications** better suits your needs for faster deployment.
+
+
+## Solution Needs
+
+### Scale
+- Individual use, small team, large company, millions of customers?
+
+#### Small Scale
+- Try to leverage pre-built tools and existing gen AI powered applications / APIs
+
+#### Large Scale
+- Pick solutions that offer customization, scalability, security
+- Factor in infrastructure costs, data storage, latency challenges
+
+### Customization
+
+- Start with existing models - via APIs or open-source libraries and fine tune on specific data for better performance
+- Identify unique needs - specialized knowledge, complex tasks, unique user experience
+- Consider data specificity - fine tune with domain specific datasets or explore models specifically trained for those areas - e.g. law, medicine
+- Consider task complexity - simple like text summarization or more complex like code generation or creative writing
+
+### User Interaction
+
+#### User Interface
+- May involve dedicated interface or integrating within current applications
+
+#### User Experience
+- Conversational, informative, task oriented?
+- Consider level of guidance and feedback users might need.
+
+### Privacy 
+
+#### Data Security
+- How will data be protected during processing and storage?
+- Encryption, access controls, secure data centers
+
+#### Compliance
+- What specific regulations need to be adhered to? GDPR, HIPPA etc
+
+
+### Other Considerations
+
+- **Latency** -  Consider real-time requirements. Do you need instantaneous responses, or can you tolerate some delay? If real-time interaction isn't critical, you have more flexibility in choosing models and infrastructure.
+- **Connectivity** - Consider offline functionality. Are there scenarios where the solution needs to function without internet access?
+- **Accuracy** - Define acceptable tolerances. Determine the level of accuracy required for your AI's output. This will influence model selection, training data, and evaluation metrics.
+- **Explainability** - Consider using models or techniques that offer explainability features, especially in healthcare or finance.
+
+
+### Maintenance
+
+#### Model Monitoring and Retraining
+- Establish a system to continuously monitor your model's performance and retrain it periodically with updated data.
+
+#### Data Updates
+- Plan for regular data updates to keep your model fresh and relevant. This might involve adding new data sources, cleaning existing data, or adapting to evolving data formats.
+
+#### Software Updates and Bug Fixes
+- Stay informed about updates to your chosen AI platform, libraries, or frameworks, and implement them promptly to ensure optimal performance and security.
+
+#### Hardware and Infrastructure
+- Consider the maintenance needs of your hardware and infrastructure. This includes server maintenance, security updates, and capacity planning to accommodate growing data and user demands.
+
+#### Security and Compliance
+- Maintain a vigilant approach to security. Regularly review and update your security measures to protect against evolving threats. Ensure ongoing compliance with data privacy regulations as they change.
+
+
+

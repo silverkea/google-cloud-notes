@@ -159,4 +159,78 @@ Artificial Intelligence that can create new content and ideas - text, images, mu
 - Continue gen AI education through courses, articles, conferences, experimenting
 
 
+## Gen AI Landscape
 
+
+### Gen AI Applications
+Delivers AI capability to users through interfaces
+
+### Agents
+Utilizes model capabilities to perform complex actions. Interacts with environment, gathers information, makes decisions, executes actions based on information received.
+
+- Tries to achieve a goal by observing environment and taking actions using tools at its disposal
+- Understand and respond to natural language
+- Automate complex tasks - multi-step processes like gathering info, making decisions, taking action
+- Personalization - learn user preferences and tailor application experience accordingly
+
+#### Types of Agents
+##### Conversational Agents
+- type or speak to agent
+- agent understands
+- agent calls a tool
+- agent generates a response
+- agent delivers response
+
+##### Workflow Agents
+- define a task or trigger a process like uploading a form, file, schedule event, order product
+- agent interprets task requirements, defines steps needed to complete task
+- agent calls tools to execute series of actions - data transformation, file transfer, send notifications, integrate with external systems, initiate other automated processes via APIs
+- agent generates result/output - compiles outcome of executed actions - report, data file, confirmation message, updated status in a system
+- agent delivers result/output to recipients or systems - email, dashboard, notification, external system, API call
+
+
+#### Reasoning Loop
+- Observe
+- Interpret
+- Plan
+- Act
+#### Tools
+- Functionalities that allow agent to interact with its environment
+
+#### Advanced Prompt Engineering
+Often used to guide decision making process in reasoning loop. Can include:
+- Simple rule based calculations
+- Complex thought chains
+- Machine learning algorithms
+- Probabilistic reasoning techniques
+
+	Examples include ReAct or Chain of Thought prompting techniques
+
+
+### Platforms
+Tools and services that help building and deploying AI models. Includes model training platforms like [[Vertex AI]] and data management tools.
+
+### Models
+The brains of the AI system. Algorithms that learn from data and generate predictions or outputs. Includes LLMs, diffusion models, reinforcement learning models.
+
+### Infrastructure
+Comprises hardware (servers, resources, GPUs, TPUs)  and software (OS, networking) that provide compute, storage and connectivity to train, deploy and scale AI 
+
+#### High Performance Computing
+
+##### GPUs and TPUs
+Specialized processors that excel at parallel processing. 
+
+##### Hypercomputers
+Supercomputer built by connecting many individual computers (nodes) together. Nodes contain GPUs and TPUs. By linking with high speed network they act as one massive computing unit and provide massive scale needed for training and running demanding gen AI models.
+
+#### High Performance Storage
+
+##### Large Scale Storage
+- Google Cloud's large-scale storage is optimized for AI workloads, providing high throughput, seamless scalability for growing models and datasets, and strong data durability to prevent loss.
+
+##### Fast Storage Access
+- Fast read/write speeds are crucial for storage systems to avoid hindering AI model training.
+
+#### Networking
+- Google's global fiber network provides high-bandwidth, low-latency connectivity, vital for efficient communication and data flow within AI computing clusters.
