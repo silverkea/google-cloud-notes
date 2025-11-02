@@ -23,7 +23,7 @@
 - Peer you Google VPC with network hosted by supported cloud service provider
 - Supports AWS, Azure, Oracle Cloud Infrastructure, Alibaba Cloud
 - Available in 10Gbps and 100 Gbps sizes
-- Google does not guarantee uptime from other cloud provider, and cannot create support tickets on your behalf
+- Google does not guarantee uptime from other cloud provider, and cannot create support tickets on your behalf 
 
 
 ## Cloud Peering

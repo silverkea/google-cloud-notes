@@ -15,4 +15,9 @@ Allows private RFC 1918 connectivity across two VPC networks, regardless of whet
 - To establish VPC Network Peering, the admin of each network needs to peer their network with the other network.
 - When both peering connections are created, VPC Network Perring sessions become Active and routes are exchanged, allowing instances to communicate via private IP address.
 - Enables decentralized / distributed approach to multi-project networking because each VPC network may remain under control of separate administrator groups and maintain own global firewall and routing tables.
-- This approach has better latency, security and cost savings compared to using external IPs or VPNs.
+- This approach has better latency, security and cost savings compared to using external IPs or VPNs
+
+![[shared-vpc-vs-vpc-peering.png]]
+
+
+![[shared-vpc-vs-vpc-peering-detail.png]]
