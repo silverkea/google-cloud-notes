@@ -1,0 +1,8 @@
+Software-defined, globally distributed systems that form the entry point to Google's private network, located in over 200 Points of Presence (PoPs) around the world.
+
+They are intelligent reverse proxies that perform several critical jobs at the "edge" of Google's network, as close to the user as possible:
+
+- **Global Load Balancing:** GFEs are the technology behind Google's global load balancers. They receive traffic on a single **anycast IP address** (a single IP that routes to many different locations) and automatically direct your request to the closest healthy backend (like a VM or GKE cluster), even if it's in a different region.
+- **SSL/TLS Termination:** GFEs terminate the user's HTTPS connection. This means they handle the computationally expensive task of encrypting and decrypting SSL/TLS traffic, offloading this work from your backend applications so they can focus on their main job.
+-  **DDoS and Security Protection:** As the first line of defense, GFEs provide massive, planet-scale protection against DDoS attacks. They absorb and filter out malicious traffic at the edge before it can ever reach your application. This is the same infrastructure that protects Google Search and YouTube.
+- **Serving Content:** For services like **Cloud CDN**, GFEs serve cached content directly from the edge, providing the lowest possible latency to users without having to go to your origin server at all.
