@@ -21,12 +21,24 @@
 
 ### [[Internal Load Balancer]]
 
-![[load-balancer-choice-chart.png]]
-
-
-![[load-balancer-choice-table.png]]
+### [[Load Balancer Deployment Options]]
 
 
 ## Infrastructure Automation
 
 ### [[Terraform]]
+
+### [[Google Cloud Marketplace]]
+
+
+## Managed Services
+
+### [[BigQuery]]
+
+### [[Cloud Dataflow]]
+
+### [[Cloud Dataprep]]
+
+### [[Cloud Dataproc]]
+
+### [[Cloud Dataproc vs Cloud Dataflow Decision Guid]]

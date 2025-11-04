@@ -19,3 +19,8 @@ Terraform is an **Infrastructure as Code (IaC)** tool used to provision and mana
     3. **`terraform plan`**: Shows you what Terraform _will_ do (create, change, or destroy) without making any actual changes. This is a "dry run" to check your work.
         
     4. **`terraform apply`**: Executes the plan and creates the infrastructure.
+
+## Reference
+
+[Google Provider Terraform Docs](https://registry.terraform.io/providers/hashicorp/google/latest/docs)
+
