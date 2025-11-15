@@ -1,0 +1,2 @@
+- Contains public, open source images
+- Provides storage for private container images for projects integrated with [[Identity and Access Management (IAM)|IAM]]
