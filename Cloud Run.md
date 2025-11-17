@@ -4,7 +4,7 @@
 - Auto scale almost instantly from zero to N instances.
 - Usage charged to nearest 100 milliseconds, plus start up and shut down time, plus small fee per million requests.
 - Price of container time increases with CPU and memory.
-- Can run any binary compiled for Linux sixty-four bit.
+- Can run any binary compiled for Linux 64 bit.
 - Supports languages including Java, Python, Node.js, PHP, Go, Ruby, .NET, and C++.
 - Can also run code written in less popular languages, e.g. Cobol, Haskell, Perl
 - If application handles web requests, good to go.
