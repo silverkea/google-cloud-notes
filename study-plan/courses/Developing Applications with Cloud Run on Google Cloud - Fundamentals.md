@@ -51,7 +51,7 @@ The lifecycle manages how containers spin up and down to handle traffic and cost
 5. **Stopped:** The container disappears. Data in memory/ephemeral storage is lost.
     
 
-> **ACE Exam Tip:** Always handle `SIGTERM` in your code to prevent data corruption during scaling events.
+Always handle `SIGTERM` in your code to prevent data corruption during scaling events.
 
 ---
 
