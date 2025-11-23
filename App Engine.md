@@ -4,6 +4,6 @@ Manages the hardware and network infrastructure.
 
 Automatically scales application in response to amount of traffic it receives.
 
-Can easily run multiple versions of application to test new features with en d users.
+Can easily run multiple versions of application to test new features with end users.
 
 

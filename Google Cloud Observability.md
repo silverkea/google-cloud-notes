@@ -6,7 +6,40 @@ Used to be called Google Cloud Operations Suite and Stackdriver before that.
 - Provides access to data and analytics tools and collaboration with third party tools
 - Includes services for monitoring, logging, error reporting and tracing
 - Billing is usage based with free usage allotments
-## Cloud Monitoring
+
+### **Core Mission**
+
+Explore both **known and unknown issues** underlying your workloads.
+
+### **Design Principles**
+
+#### **User-Focused**
+
+- Understand **customer's journey**
+- **SLO monitoring**
+- **Uptime checks**
+- **Tracing** capabilities
+
+#### **Open & Flexible**
+
+- Leverage popular **open source projects**:
+    - **Prometheus**
+    - **OpenTelemetry**
+    - **Fluentbit**
+
+#### **Integrated for Ease**
+
+- **Automatic ingestion**
+- **Connect data sets**
+- **In-context telemetry** across Google Cloud service views
+
+#### **Meaningful Analysis**
+
+- **Powerful analysis tools**
+- **Automated alerting**
+- **Human-led resolution** support
+
+## [[Cloud Monitoring]]
 - Comprehensive view of cloud infrastructure and applications
 - Collects metrics, logs and traces
 - Provides insights into performance, health, availability
@@ -65,7 +98,7 @@ Used to be called Google Cloud Operations Suite and Stackdriver before that.
 - If metric applies to instance group, autoscaler will use the metric from the group
 - For metrics with multiple values, apply a filter to select the value to use
 
-## Cloud Logging
+## [[Cloud Logging]]
 - Allows you to store, search, analyze, monitor and alert on log data and events from Google Cloud and AWS
 - Fully managed service, performs at scale
 - Collects and stores application and infrastructure logs
@@ -76,7 +109,7 @@ Used to be called Google Cloud Operations Suite and Stackdriver before that.
 	- Pub/Sub, 
 	- BigQuery - can the use logging data with Looker Studio
 
-## Error Reporting
+## [[Error Reporting]]
 - Counts, analyzes and aggregates the errors in your running cloud services
 - Centralized error management interface displays results, with sorting, filtering and notification capabilities via email, mobile app, pub/sub, webhooks
 - Dedicated view shows details
@@ -88,7 +121,7 @@ Used to be called Google Cloud Operations Suite and Stackdriver before that.
 - Available for App Engine (standard and flexible), Apps Script, Compute Engine, Cloud Functions, Cloud Run, Google Kubernetes Engine and Amazon EC2
 - Stack trace parser available for Go, Java, Node.js, Python, Ruby, PHP, .NET
 
-## Cloud Trace
+## [[Cloud Trace]]
 - Collect latency data from applications and display in Cloud console
 - Track how requests propagate through your application and receive detailed near real-time performance insights
 - Helps identify performance bottlenecks in applications
@@ -97,7 +130,7 @@ Used to be called Google Cloud Operations Suite and Stackdriver before that.
 - Language specific client libraries: Java, Go, Node.js, Python, Ruby, PHP, .NET
 - Supports OpenTelemetry, Zipkin, OpenCensus
 
-## Cloud Profiler
+## [[Cloud Profiler]]
 - Continuously analyzes CPU power, memory and other resources and application uses
 - Uses statistical techniques (sampling) and low-impact instrumentation to provide picture of application performance without slowing it down.
 - Allows developers to analyze applications running anywhere, including on-premises, in Google Cloud, or other clouds.
